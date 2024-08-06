@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WaywardWoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swamp_background" translatesAutoresizingMaskIntoConstraints="NO" id="E5Z-Qq-8tY">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3eO-5t-SBM">
+                                <rect key="frame" x="30" y="64" width="333" height="724"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="yeX-b4-nZJ">
+                                        <rect key="frame" x="54.333333333333329" y="0.0" width="224.33333333333337" height="241.33333333333334"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Sm4-XY-rjx">
+                                        <rect key="frame" x="0.0" y="241.33333333333331" width="333" height="241.33333333333331"/>
+                                        <string key="text">Welcome to your wayward adventure! You were on your way to a picnic when you got lost. Try and find your way to safety! Please press Start to begin.</string>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="24"/>
+                                        <color key="textColor" red="1" green="0.85330775270000003" blue="0.79337174610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="shadowOffset" width="3" height="3"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="N0c-FQ-qPg">
+                                        <rect key="frame" x="30" y="482.66666666666657" width="273" height="241.33333333333331"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHa-gp-1cz">
+                                                <rect key="frame" x="0.0" y="0.0" width="273" height="115.66666666666667"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                                        <color key="backgroundColor" red="0.63120254362472372" green="0.53795099789731293" blue="0.50198787647480025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="strokeColor" red="1" green="0.89587722189999996" blue="0.7713757027" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="25"/>
+                                                    <color key="baseForegroundColor" red="1" green="0.89587722189999996" blue="0.7713757027" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="choiceOneLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u3z-KJ-5BY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecP-1S-odL">
+                                                <rect key="frame" x="0.0" y="125.66666666666674" width="273" height="115.66666666666669"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                                        <color key="backgroundColor" red="0.63120254362472372" green="0.53795099789731293" blue="0.50198787647480025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="strokeColor" red="1" green="0.89587722189999996" blue="0.7713757027" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="25"/>
+                                                    <color key="baseForegroundColor" red="1" green="0.89587722189999996" blue="0.7713757027" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="choiceTwoLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3su-4w-XvY"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ecP-1S-odL" firstAttribute="height" secondItem="iHa-gp-1cz" secondAttribute="height" id="B4c-01-zAP"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="N0c-FQ-qPg" secondAttribute="trailing" constant="30" id="adg-Xx-Ete"/>
+                                    <constraint firstItem="N0c-FQ-qPg" firstAttribute="leading" secondItem="3eO-5t-SBM" secondAttribute="leading" constant="30" id="ci9-aU-o5f"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="KJ7-bU-1yY">
+                                <rect key="frame" x="30" y="326" width="333" height="200"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="24"/>
+                                <color key="textColor" red="1" green="0.85330775270000003" blue="0.79337174610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="3" height="3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2B-a6-En3" userLabel="StartButton">
+                                <rect key="frame" x="100" y="726" width="193" height="62"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.66069770579999998" green="0.56377847449999996" blue="0.52417889250000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="Start">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="1" green="0.89587722189999996" blue="0.7713757027" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" red="0.66069770579999998" green="0.56377847449999996" blue="0.52417889250000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="35"/>
+                                    <color key="baseForegroundColor" red="0.66069770579999998" green="0.56377847449999996" blue="0.52417889250000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2IF-lf-syy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KJ7-bU-1yY" secondAttribute="trailing" constant="30" id="0gz-aq-eGh"/>
+                            <constraint firstItem="3eO-5t-SBM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="4Gn-oV-hqe"/>
+                            <constraint firstItem="y2B-a6-En3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="5LW-cx-yVG"/>
+                            <constraint firstItem="KJ7-bU-1yY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BEZ-av-60a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y2B-a6-En3" secondAttribute="trailing" constant="100" id="LbR-lK-Bmv"/>
+                            <constraint firstItem="E5Z-Qq-8tY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Mhi-37-XUT"/>
+                            <constraint firstItem="KJ7-bU-1yY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W8r-zs-zH0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="y2B-a6-En3" secondAttribute="bottom" constant="30" id="Zrr-lV-QaK"/>
+                            <constraint firstItem="3eO-5t-SBM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fcF-Ks-w6R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3eO-5t-SBM" secondAttribute="bottom" constant="30" id="gJk-ev-CY1"/>
+                            <constraint firstAttribute="bottom" secondItem="E5Z-Qq-8tY" secondAttribute="bottom" id="nYv-KQ-xet"/>
+                            <constraint firstItem="3eO-5t-SBM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oeL-De-vor"/>
+                            <constraint firstItem="y2B-a6-En3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="667" id="sxT-qQ-SDG"/>
+                            <constraint firstItem="E5Z-Qq-8tY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uTz-1D-tSd"/>
+                            <constraint firstItem="y2B-a6-En3" firstAttribute="top" secondItem="KJ7-bU-1yY" secondAttribute="bottom" constant="200" id="xXk-nh-PL6"/>
+                            <constraint firstItem="E5Z-Qq-8tY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="zfu-dZ-bCb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="background" destination="E5Z-Qq-8tY" id="QyO-3V-jg4"/>
+                        <outlet property="choiceOne" destination="iHa-gp-1cz" id="QI9-HN-XYa"/>
+                        <outlet property="choiceTwo" destination="ecP-1S-odL" id="lFA-ye-0ky"/>
+                        <outlet property="logo" destination="yeX-b4-nZJ" id="4rH-mv-Eyi"/>
+                        <outlet property="promptLabel" destination="Sm4-XY-rjx" id="vn9-6x-3kH"/>
+                        <outlet property="resultLabel" destination="KJ7-bU-1yY" id="It9-Gg-kKN"/>
+                        <outlet property="startButton" destination="y2B-a6-En3" id="m62-FM-G1X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app_logo" width="224.33332824707031" height="41.333332061767578"/>
+        <image name="swamp_background" width="366.66665649414062" height="229.33332824707031"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

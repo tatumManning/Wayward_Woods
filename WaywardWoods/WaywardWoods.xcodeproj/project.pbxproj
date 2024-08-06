@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1C0E982A3E31A300A5748C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0E972A3E31A300A5748C /* AppDelegate.swift */; };
+		DE1C0E9A2A3E31A300A5748C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0E992A3E31A300A5748C /* SceneDelegate.swift */; };
+		DE1C0E9C2A3E31A300A5748C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0E9B2A3E31A300A5748C /* ViewController.swift */; };
+		DE1C0E9F2A3E31A300A5748C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C0E9D2A3E31A300A5748C /* Main.storyboard */; };
+		DE1C0EA12A3E31A500A5748C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1C0EA02A3E31A500A5748C /* Assets.xcassets */; };
+		DE1C0EA42A3E31A500A5748C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C0EA22A3E31A500A5748C /* LaunchScreen.storyboard */; };
+		DE1C0EAF2A3E31A500A5748C /* WaywardWoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0EAE2A3E31A500A5748C /* WaywardWoodsTests.swift */; };
+		DE1C0EB92A3E31A500A5748C /* WaywardWoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0EB82A3E31A500A5748C /* WaywardWoodsUITests.swift */; };
+		DE1C0EBB2A3E31A500A5748C /* WaywardWoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0EBA2A3E31A500A5748C /* WaywardWoodsUITestsLaunchTests.swift */; };
+		DE1C0EC82A3EA98400A5748C /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0EC72A3EA98400A5748C /* Prompt.swift */; };
+		DE1C0ECA2A3EA9D700A5748C /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C0EC92A3EA9D700A5748C /* GameLogic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1C0EAB2A3E31A500A5748C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1C0E8C2A3E31A300A5748C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1C0E932A3E31A300A5748C;
+			remoteInfo = WaywardWoods;
+		};
+		DE1C0EB52A3E31A500A5748C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1C0E8C2A3E31A300A5748C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1C0E932A3E31A300A5748C;
+			remoteInfo = WaywardWoods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1C0E942A3E31A300A5748C /* WaywardWoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaywardWoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1C0E972A3E31A300A5748C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE1C0E992A3E31A300A5748C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE1C0E9B2A3E31A300A5748C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE1C0E9E2A3E31A300A5748C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE1C0EA02A3E31A500A5748C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1C0EA32A3E31A500A5748C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE1C0EA52A3E31A500A5748C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1C0EAA2A3E31A500A5748C /* WaywardWoodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaywardWoodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1C0EAE2A3E31A500A5748C /* WaywardWoodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaywardWoodsTests.swift; sourceTree = "<group>"; };
+		DE1C0EB42A3E31A500A5748C /* WaywardWoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaywardWoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1C0EB82A3E31A500A5748C /* WaywardWoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaywardWoodsUITests.swift; sourceTree = "<group>"; };
+		DE1C0EBA2A3E31A500A5748C /* WaywardWoodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaywardWoodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE1C0EC72A3EA98400A5748C /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		DE1C0EC92A3EA9D700A5748C /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1C0E912A3E31A300A5748C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1C0EA72A3E31A500A5748C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1C0EB12A3E31A500A5748C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1C0E8B2A3E31A300A5748C = {
+			isa = PBXGroup;
+			children = (
+				DE1C0E962A3E31A300A5748C /* WaywardWoods */,
+				DE1C0EAD2A3E31A500A5748C /* WaywardWoodsTests */,
+				DE1C0EB72A3E31A500A5748C /* WaywardWoodsUITests */,
+				DE1C0E952A3E31A300A5748C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1C0E952A3E31A300A5748C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C0E942A3E31A300A5748C /* WaywardWoods.app */,
+				DE1C0EAA2A3E31A500A5748C /* WaywardWoodsTests.xctest */,
+				DE1C0EB42A3E31A500A5748C /* WaywardWoodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1C0E962A3E31A300A5748C /* WaywardWoods */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C0E972A3E31A300A5748C /* AppDelegate.swift */,
+				DE1C0EC92A3EA9D700A5748C /* GameLogic.swift */,
+				DE1C0EC72A3EA98400A5748C /* Prompt.swift */,
+				DE1C0E992A3E31A300A5748C /* SceneDelegate.swift */,
+				DE1C0E9B2A3E31A300A5748C /* ViewController.swift */,
+				DE1C0E9D2A3E31A300A5748C /* Main.storyboard */,
+				DE1C0EA02A3E31A500A5748C /* Assets.xcassets */,
+				DE1C0EA22A3E31A500A5748C /* LaunchScreen.storyboard */,
+				DE1C0EA52A3E31A500A5748C /* Info.plist */,
+			);
+			path = WaywardWoods;
+			sourceTree = "<group>";
+		};
+		DE1C0EAD2A3E31A500A5748C /* WaywardWoodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C0EAE2A3E31A500A5748C /* WaywardWoodsTests.swift */,
+			);
+			path = WaywardWoodsTests;
+			sourceTree = "<group>";
+		};
+		DE1C0EB72A3E31A500A5748C /* WaywardWoodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C0EB82A3E31A500A5748C /* WaywardWoodsUITests.swift */,
+				DE1C0EBA2A3E31A500A5748C /* WaywardWoodsUITestsLaunchTests.swift */,
+			);
+			path = WaywardWoodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1C0E932A3E31A300A5748C /* WaywardWoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1C0EBE2A3E31A500A5748C /* Build configuration list for PBXNativeTarget "WaywardWoods" */;
+			buildPhases = (
+				DE1C0E902A3E31A300A5748C /* Sources */,
+				DE1C0E912A3E31A300A5748C /* Frameworks */,
+				DE1C0E922A3E31A300A5748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaywardWoods;
+			productName = WaywardWoods;
+			productReference = DE1C0E942A3E31A300A5748C /* WaywardWoods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1C0EA92A3E31A500A5748C /* WaywardWoodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1C0EC12A3E31A500A5748C /* Build configuration list for PBXNativeTarget "WaywardWoodsTests" */;
+			buildPhases = (
+				DE1C0EA62A3E31A500A5748C /* Sources */,
+				DE1C0EA72A3E31A500A5748C /* Frameworks */,
+				DE1C0EA82A3E31A500A5748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1C0EAC2A3E31A500A5748C /* PBXTargetDependency */,
+			);
+			name = WaywardWoodsTests;
+			productName = WaywardWoodsTests;
+			productReference = DE1C0EAA2A3E31A500A5748C /* WaywardWoodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE1C0EB32A3E31A500A5748C /* WaywardWoodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1C0EC42A3E31A500A5748C /* Build configuration list for PBXNativeTarget "WaywardWoodsUITests" */;
+			buildPhases = (
+				DE1C0EB02A3E31A500A5748C /* Sources */,
+				DE1C0EB12A3E31A500A5748C /* Frameworks */,
+				DE1C0EB22A3E31A500A5748C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1C0EB62A3E31A500A5748C /* PBXTargetDependency */,
+			);
+			name = WaywardWoodsUITests;
+			productName = WaywardWoodsUITests;
+			productReference = DE1C0EB42A3E31A500A5748C /* WaywardWoodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1C0E8C2A3E31A300A5748C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DE1C0E932A3E31A300A5748C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DE1C0EA92A3E31A500A5748C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DE1C0E932A3E31A300A5748C;
+					};
+					DE1C0EB32A3E31A500A5748C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DE1C0E932A3E31A300A5748C;
+					};
+				};
+			};
+			buildConfigurationList = DE1C0E8F2A3E31A300A5748C /* Build configuration list for PBXProject "WaywardWoods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1C0E8B2A3E31A300A5748C;
+			productRefGroup = DE1C0E952A3E31A300A5748C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1C0E932A3E31A300A5748C /* WaywardWoods */,
+				DE1C0EA92A3E31A500A5748C /* WaywardWoodsTests */,
+				DE1C0EB32A3E31A500A5748C /* WaywardWoodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1C0E922A3E31A300A5748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1C0EA42A3E31A500A5748C /* LaunchScreen.storyboard in Resources */,
+				DE1C0EA12A3E31A500A5748C /* Assets.xcassets in Resources */,
+				DE1C0E9F2A3E31A300A5748C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1C0EA82A3E31A500A5748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1C0EB22A3E31A500A5748C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1C0E902A3E31A300A5748C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1C0E9C2A3E31A300A5748C /* ViewController.swift in Sources */,
+				DE1C0EC82A3EA98400A5748C /* Prompt.swift in Sources */,
+				DE1C0E982A3E31A300A5748C /* AppDelegate.swift in Sources */,
+				DE1C0ECA2A3EA9D700A5748C /* GameLogic.swift in Sources */,
+				DE1C0E9A2A3E31A300A5748C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1C0EA62A3E31A500A5748C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1C0EAF2A3E31A500A5748C /* WaywardWoodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1C0EB02A3E31A500A5748C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1C0EB92A3E31A500A5748C /* WaywardWoodsUITests.swift in Sources */,
+				DE1C0EBB2A3E31A500A5748C /* WaywardWoodsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1C0EAC2A3E31A500A5748C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1C0E932A3E31A300A5748C /* WaywardWoods */;
+			targetProxy = DE1C0EAB2A3E31A500A5748C /* PBXContainerItemProxy */;
+		};
+		DE1C0EB62A3E31A500A5748C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1C0E932A3E31A300A5748C /* WaywardWoods */;
+			targetProxy = DE1C0EB52A3E31A500A5748C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE1C0E9D2A3E31A300A5748C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1C0E9E2A3E31A300A5748C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1C0EA22A3E31A500A5748C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1C0EA32A3E31A500A5748C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1C0EBC2A3E31A500A5748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE1C0EBD2A3E31A500A5748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1C0EBF2A3E31A500A5748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaywardWoods/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.auburn.onlinecsse.WaywardWoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1C0EC02A3E31A500A5748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaywardWoods/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.auburn.onlinecsse.WaywardWoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE1C0EC22A3E31A500A5748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.auburn.onlinecsse.WaywardWoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaywardWoods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaywardWoods";
+			};
+			name = Debug;
+		};
+		DE1C0EC32A3E31A500A5748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.auburn.onlinecsse.WaywardWoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaywardWoods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaywardWoods";
+			};
+			name = Release;
+		};
+		DE1C0EC52A3E31A500A5748C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.auburn.onlinecsse.WaywardWoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaywardWoods;
+			};
+			name = Debug;
+		};
+		DE1C0EC62A3E31A500A5748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.auburn.onlinecsse.WaywardWoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaywardWoods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1C0E8F2A3E31A300A5748C /* Build configuration list for PBXProject "WaywardWoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1C0EBC2A3E31A500A5748C /* Debug */,
+				DE1C0EBD2A3E31A500A5748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1C0EBE2A3E31A500A5748C /* Build configuration list for PBXNativeTarget "WaywardWoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1C0EBF2A3E31A500A5748C /* Debug */,
+				DE1C0EC02A3E31A500A5748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1C0EC12A3E31A500A5748C /* Build configuration list for PBXNativeTarget "WaywardWoodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1C0EC22A3E31A500A5748C /* Debug */,
+				DE1C0EC32A3E31A500A5748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1C0EC42A3E31A500A5748C /* Build configuration list for PBXNativeTarget "WaywardWoodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1C0EC52A3E31A500A5748C /* Debug */,
+				DE1C0EC62A3E31A500A5748C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1C0E8C2A3E31A300A5748C /* Project object */;
+}
